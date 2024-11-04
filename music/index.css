@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #f8f7fa; 
+    text-align: center;
+    padding: 1em;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right: 1em; 
+    top: 90%; 
+    transform: translateY(-50%); 
+}
+
+nav a {
+  color: #9370DB; 
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+h1, h2 {
+    color: #9370DB; 
+}
+
+a {
+    color: #9370DB;
+    text-decoration: none;
+}
+
+.container {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.intro {
+    background-color: #222;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+
+.album-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.album-item {
+    background-color: #444;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.album-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #9370DB;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.login-form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #333;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+th, td {
+    padding: 1em;
+    border: 1px solid #555;
+    text-align: left;
+}
+
+th {
+    background-color: #9370DB;
+}
